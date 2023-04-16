@@ -1,0 +1,1112 @@
+/* html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  } */
+
+
+.Article-Page{
+top: 0px;
+left: 0px;
+width: 100%;
+height: 2010px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+position: absolute;
+}
+
+.Header-Section{
+top: 0px;
+left: 0px;
+width: 100%;
+height: 116px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+position: absolute;
+/* overflow: hidden;
+position: fixed;
+z-index: 3; */
+}
+
+.Heading-1{
+top: 41px;
+left: 223px;
+width: 23px;
+height: 36px;
+transform: matrix(0, -1, 1, 0, 0, 0);
+text-align: left;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Montserrat';
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+position: relative;
+}
+
+.Heading-2{
+top: -20px;
+left: 260px;
+width: 118px;
+height: 84px;
+text-align: left;
+font-size: 54px;
+font-weight: bold;
+font-family: 'Montserrat';
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+position: relative;
+}
+
+.Heading-3{
+top: -85px;
+left: 1671px;
+width: 137px;
+height: 45px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #03A87C;
+opacity: 1;
+position: relative;
+}
+
+.Btn-Text{
+top: 0px;
+left: 12px;
+width: 105px;
+height: 24px;
+text-align: left;
+font: normal normal normal 18px/25px 'Open Sans';
+letter-spacing: 0px;
+color: #03A87C;
+opacity: 1;
+position: relative;
+}
+
+/* .Body-Section{
+    margin-top: 55px;
+    
+} */
+
+.Body-Header{
+top: 154px;
+left: 652px;
+width: 620px;
+height: 46px;
+text-align: left;
+font: normal normal normal 40px/25px 'Montserrat';
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+position: relative;
+}
+
+.Author-Pic{
+top: 222px;
+left: 618px;
+width: 103px;
+height: 103px;
+background: transparent url('../pictures/MaskGroup16.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+position: relative;
+}
+
+.Author-Name{
+top: 152px;
+left: 737px;
+width: 147px;
+height: 24px;
+text-align: left;
+font: normal normal normal 18px/25px 'Open Sans';
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+position: relative;
+}
+
+.Author-Timestamp{
+top: 155px;
+left: 738px;
+width: 208px;
+height: 19px;
+text-align: left;
+font: normal normal normal 14px/25px 'Open Sans';
+letter-spacing: 0px;
+color: #A2A2A2;
+opacity: 1;
+position: relative;
+}
+
+.Social-Media{
+top: 105px;
+left: 1176px;
+width: 150px;
+height: 60px;
+opacity: 1;
+background: transparent url('../pictures/sm.png') 0% 0% no-repeat padding-box;
+position: relative;
+}
+
+.Img-1{
+top: 158px;
+left: 618px;
+width: 677px;
+height: 370px;
+background: transparent url('../pictures/SS1.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+position: relative;
+}
+
+.Footer-Section{
+top: 441px;
+left: 0px;
+width: 100%;
+height: 1150px;
+background: #FAFAFA 0% 0% no-repeat padding-box;
+opacity: 1;
+position: relative;
+z-index: 2;
+}
+
+.Body-Text{
+top: 251px;
+left: 618px;
+width: 677px;
+height: 280px;
+text-align: left;
+font: normal normal normal 21px/32px Georgia;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+position: relative;
+}
+
+.Img-2{
+top: 301px;
+left: 622px;
+width: 673px;
+height: 701px;
+background: transparent url('../pictures/SS2.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+position: relative;
+}
+
+.Btn-1{
+top: 352px;
+left: 622px;
+width: 70px;
+height: 33px;
+background: #F2F2F2 0% 0% no-repeat padding-box;
+border: none;
+opacity: 1;
+position: relative;
+}
+
+.Btn-1-Text{
+font: normal normal normal 15px/25px 'Open Sans';
+letter-spacing: 0px;
+color: #A2A2A2;
+opacity: 1;
+}
+
+.Btn-2{
+top: 352px;
+left: 642px;
+width: 95px;
+height: 33px;
+background: #F2F2F2 0% 0% no-repeat padding-box;
+border: none;
+opacity: 1;
+position: relative;
+}
+
+.Btn-2-Text{
+font: normal normal normal 15px/25px 'Open Sans';
+letter-spacing: 0px;
+color: #A2A2A2;
+opacity: 1;
+}
+
+.Btn-3{
+top: 352px;
+left: 662px;
+width: 95px;
+height: 33px;
+background: #F2F2F2 0% 0% no-repeat padding-box;
+border: none;
+opacity: 1;
+position: relative;
+}
+
+.Btn-3-Text{
+font: normal normal normal 15px/25px 'Open Sans';
+letter-spacing: 0px;
+color: #A2A2A2;
+opacity: 1;
+}
+
+.Claps-Icon{
+top: 372px;
+left: 622px;
+width: 40px;
+height: 40px;
+background: transparent url('../pictures/rythm/rythm.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+position: relative;
+}
+
+.Claps-Text{
+top: 342px;
+left: 682px;
+width: 75px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/25px 'Open Sans';
+letter-spacing: 0px;
+color: #939393;
+opacity: 1;
+position: relative;
+}
+
+.Line-1{
+top: 372px;
+left: 622px;
+width: 680px;
+height: 2px;
+background: #F0F0F0 0% 0% no-repeat padding-box;
+opacity: 1;
+position: relative;
+}
+
+.Line-2{
+top: 382px;
+left: 622px;
+width: 680px;
+height: 2px;
+background: #F0F0F0 0% 0% no-repeat padding-box;
+opacity: 1;
+position: relative;
+}
+
+.Author-Footer-Pic{
+    top: 402px;
+    left: 618px;
+    width: 103px;
+    height: 103px;
+    background: transparent url('../pictures/MaskGroup16.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
+    }
+
+.Author-Footer-Text{
+top: 312px;
+left: 737px;
+width: 80px;
+height: 19px;
+text-align: left;
+font: normal normal normal 14px/25px 'Open Sans';
+letter-spacing: 0px;
+color: #A2A2A2;
+opacity: 1;
+position: relative;
+}
+    
+    .Author-Footer-Name{
+    top: 325px;
+    left: 737px;
+    width: 147px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 18px/25px 'Open Sans';
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: relative;
+    }
+    
+    .Author-Footer-Timestamp{
+    top: 335px;
+    left: 738px;
+    width: 208px;
+    height: 19px;
+    text-align: left;
+    font: normal normal normal 14px/25px 'Open Sans';
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+    position: relative;
+    }
+
+    .Footer-Heading{
+top: 100px;
+left: 157px;
+width: 215px;
+height: 30px;
+text-align: left;
+font: normal normal normal 22px/25px 'Open Sans';
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+position: relative;
+    }
+
+.Footer-Heading-Line{
+top: 120px;
+left: 157px;
+width: 1600px;
+height: 3px;
+background: #F0F0F0 0% 0% no-repeat padding-box;
+opacity: 1;
+position: relative;
+}
+
+.FC1-Head{
+top: 170px;
+left: 157px;
+width: 153px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/25px 'Open Sans';
+letter-spacing: 0px;
+color: #A2A2A2;
+opacity: 1;
+position: relative;
+}
+
+.FC2-Head{
+    bottom: 385px;
+    left: 734px;
+    width: 153px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 16px/25px 'Open Sans';
+    letter-spacing: 0px;
+    color: #A2A2A2;
+    opacity: 1;
+    position: relative;
+    }
+
+    .FC3-Head{
+        bottom: 942px;
+        left: 1311px;
+        width: 153px;
+        height: 22px;
+        text-align: left;
+        font: normal normal normal 16px/25px 'Open Sans';
+        letter-spacing: 0px;
+        color: #A2A2A2;
+        opacity: 1;
+        position: relative;
+        }    
+
+.FC1-Pic{
+top: 200px;
+left: 157px;
+width: 452px;
+height: 293px;
+background: transparent url('../pictures/TempleView.jpg') 0% 0% no-repeat padding-box;
+box-shadow: 0px 5px 10px #0000000D;
+border-radius: 7px 7px 0px 0px;
+opacity: 1;
+position: relative;
+}
+
+.FC1-Title{
+top: 220px;
+left: 157px;
+width: 423px;
+height: 95px;
+text-align: left;
+font-size: 39px;
+font-family: 'Montserrat';
+letter-spacing: 0px;
+color: #404040;
+opacity: 1;
+position: relative;
+}
+
+.FC2-Pic{
+    bottom: 355px;
+    left: 734px;
+    width: 452px;
+    height: 293px;
+    background: transparent url('../pictures/TempleView.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    position: relative;
+    }
+
+    .FC2-Title{
+        bottom: 335px;
+        left: 734px;
+        width: 423px;
+        height: 95px;
+        text-align: left;
+        font-size: 39px;
+        font-family: 'Montserrat';
+        letter-spacing: 0px;
+        color: #404040;
+        opacity: 1;
+        position: relative;
+        }
+
+.FC3-Pic{
+    bottom: 910px;
+    left: 1311px;
+    width: 452px;
+    height: 293px;
+    background: transparent url('../pictures/TempleView.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000000D;
+    border-radius: 7px 7px 0px 0px;
+    opacity: 1;
+    position: relative;
+}
+
+.FC3-Title{
+    bottom: 892px;
+    left: 1311px;
+    width: 423px;
+    height: 95px;
+    text-align: left;
+    font-size: 39px;
+    font-family: 'Montserrat';
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+    position: relative;
+    }
+
+
+    .FC1-Author-Pic{
+        top: 250px;
+        left: 157px;
+        width: 103px;
+        height: 103px;
+        background: transparent url('../pictures/MaskGroup16.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        position: relative;
+        }
+        
+        .FC1-Author-Name{
+        top: 170px;
+        left: 277px;
+        width: 147px;
+        height: 24px;
+        text-align: left;
+        font: normal normal normal 18px/25px 'Open Sans';
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        position: relative;
+        }
+        
+        .FC1-Author-Timestamp{
+        top: 180px;
+        left: 277px;
+        width: 208px;
+        height: 19px;
+        text-align: left;
+        font: normal normal normal 14px/25px 'Open Sans';
+        letter-spacing: 0px;
+        color: #A2A2A2;
+        opacity: 1;
+        position: relative;
+        }
+
+        .FC2-Author-Pic{
+            bottom: 310px;
+            left: 734px;
+            width: 103px;
+            height: 103px;
+            background: transparent url('../pictures/MaskGroup16.png') 0% 0% no-repeat padding-box;
+            opacity: 1;
+            position: relative;
+            }
+            
+            .FC2-Author-Name{
+            bottom: 385px;
+            left: 860px;
+            width: 147px;
+            height: 24px;
+            text-align: left;
+            font: normal normal normal 18px/25px 'Open Sans';
+            letter-spacing: 0px;
+            color: #000000;
+            opacity: 1;
+            position: relative;
+            }
+            
+            .FC2-Author-Timestamp{
+            bottom: 375px;
+            left: 860px;
+            width: 208px;
+            height: 19px;
+            text-align: left;
+            font: normal normal normal 14px/25px 'Open Sans';
+            letter-spacing: 0px;
+            color: #A2A2A2;
+            opacity: 1;
+            position: relative;
+            }
+
+            .FC3-Author-Pic{
+                bottom: 863px;
+                left: 1311px;
+                width: 103px;
+                height: 103px;
+                background: transparent url('../pictures/MaskGroup16.png') 0% 0% no-repeat padding-box;
+                opacity: 1;
+                position: relative;
+                }
+                
+                .FC3-Author-Name{
+                bottom: 943px;
+                left: 1440px;
+                width: 147px;
+                height: 24px;
+                text-align: left;
+                font: normal normal normal 18px/25px 'Open Sans';
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 1;
+                position: relative;
+                }
+                
+                .FC3-Author-Timestamp{
+                bottom: 933px;
+                left: 1440px;
+                width: 208px;
+                height: 19px;
+                text-align: left;
+                font: normal normal normal 14px/25px 'Open Sans';
+                letter-spacing: 0px;
+                color: #A2A2A2;
+                opacity: 1;
+                position: relative;
+                }
+
+                .Left-Claps-Icon{
+                    top: 572px;
+                    left: 223px;
+                    width: 40px;
+                    height: 40px;
+                    background: transparent url('../pictures/rythm/rythm.png') 0% 0% no-repeat padding-box;
+                    opacity: 1;
+                    position: fixed;
+                    }
+                    
+                    .Left-Claps-Text{
+                    top: 582px;
+                    left: 293px;
+                    width: 75px;
+                    height: 22px;
+                    text-align: left;
+                    font: normal normal normal 16px/25px 'Open Sans';
+                    letter-spacing: 0px;
+                    color: #939393;
+                    opacity: 1;
+                    position: fixed;
+                    /* z-index: 1; */
+                    }
+
+
+
+
+.Share{
+top: 642px;
+left: 223px;
+width: 27px;
+height: 29px;
+background: transparent url('../pictures/share.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+position: fixed;
+}
+
+.Share-Text{
+top: 642px;
+left: 289px;
+width: 124px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/25px 'Open Sans';
+letter-spacing: 0px;
+color: #939393;
+opacity: 1;
+position: fixed;
+}
+
+.Left-Box{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    }
+
+    .Mobile-Footer{
+        display: none;
+    }
+    
+
+    @media(max-width:400px){
+
+        html, body {
+            overflow-x:visible;
+          }
+          body {
+            position: relative
+          }
+
+          .Article-Page{
+            height: 1800px;
+          }
+        
+            .Heading-1{
+                top: 5px;
+                left: 30px;
+                width: 23px;
+                height: 36px;
+                transform: matrix(0, -1, 1, 0, 0, 0);
+                text-align: left;
+                font-size: 10px;
+                font-weight: 700;
+                font-family: 'Montserrat';
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 1;
+                /* position: fixed; */
+                }
+                
+               .Heading-2{
+                top: -30px;
+                left: 38px;
+                width: 100px;
+                height: 54px;
+                text-align: left;
+                font-size: 28px;
+                font-weight: bold;
+                font-family: 'Montserrat';
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 1;
+                /* position: fixed; */
+                }
+
+                .Heading-3{
+                    top: -80px;
+                    left: 260px;
+                    width: 112px;
+                    height: 31px;
+                    background: #FFFFFF 0% 0% no-repeat padding-box;
+                    border: 1px solid #03A87C;
+                    opacity: 1;
+                    /* position: fixed; */
+                    }
+                    
+                   .Btn-Text{
+                    top: -2px;
+                    left: 2px;
+                    /* top: 12px;
+                    left: 205px; */
+                    width: 105px;
+                    height: 24px;
+                    text-align: left;
+                    font: normal normal normal 18px/25px 'Open Sans';
+                    letter-spacing: 0px;
+                    color: #03A87C;
+                    opacity: 1;
+                    /* position: fixed; */
+                    }
+
+                    .Header-Section{
+                        top: 0px;
+                        left: 0px;
+                        width: 100%;
+                        height: 50px;
+                        background: #FFFFFF 0% 0% no-repeat padding-box;
+                        box-shadow: 0px 3px 6px #00000029;
+                        opacity: 1;
+                        position: fixed;
+                        overflow: hidden;
+                        z-index: 3;
+                        }
+
+    .Body-Section{
+        margin-top: 55px;
+        z-index: 2;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 1900px;
+    }
+
+    .Body-Header{
+        top: 25px;
+        left: 35px;
+        width: 313px;
+        height: 34px;
+        text-align: left;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Montserrat';
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        position: relative;
+    }
+
+    .Social-Media{
+top: -130px;
+left: 25px;
+width: 150px;
+height: 60px;
+opacity: 1;
+background: transparent url('../pictures/sm.png') 0% 0% no-repeat padding-box;
+position: relative;
+z-index: 2;
+}
+
+.Author-Pic{
+    top: 70px;
+    left: 35px;
+    width: 103px;
+    height: 103px;
+    background: transparent url('../pictures/MaskGroup17.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;  
+}
+
+.Author-Name{
+ top: -15px;
+ left:120px;
+ position: relative;   
+}
+
+.Author-Timestamp{
+    top: -10px;
+ left:120px;
+ position: relative;   
+}
+    
+
+    .Img-1{
+        top: -15px;
+        left: 35px;
+        width: 302px;
+        height: 166px;
+        background: transparent url('../pictures/SS1.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        position: relative;
+        overflow-y: scroll;
+        }
+
+    .Body-Text{
+top: 10px;
+left: 35px;
+width: 300px;
+height: 369px;
+text-align: left;
+font: normal normal normal 18px/21px Georgia;
+letter-spacing: 0px;
+color: #272727;
+opacity: 1;
+position: relative;
+/* overflow-y: scroll; */
+    }
+
+    .Img-2{
+    top: -25px;
+left: 5px;
+width: 302px;
+height: 314px;
+background: transparent url('../pictures/SS2.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+position: relative;
+
+    }
+
+    .Btn-1{
+        top: 10px;
+        left: 35px;
+        position: relative;
+    }
+
+    .Btn-2{
+        top: 10px;
+        left: 55px;
+        position: relative;
+    }
+
+    .Btn-3{
+        top: 10px;
+        left: 75px;
+        position: relative;
+    }
+
+    .Claps-Icon{
+        top: 30px;
+        left: 35px;
+        position: relative;
+    }
+
+    .Claps-Text{
+        top: 0px;
+        left: 85px;
+        position: relative;
+    }
+
+    .Line-1{
+        top: 80px;
+        left: 35px;
+        width: 300px;
+        position: relative;
+    }
+
+    .Author-Footer-Pic{
+        top: 100px;
+        left: 35px;
+        position: relative;
+        background: transparent url('../pictures/MaskGroup17.png') 0% 0% no-repeat padding-box;
+    }
+
+    .Author-Footer-Text{
+        top: 5px;
+        left: 120px;
+        width: 100px;
+        position: relative;
+    }
+
+    .Author-Footer-Name{
+        top: 10px;
+        left: 120px;
+        position: relative;
+    }
+
+    .Author-Footer-Timestamp{
+        top: 10px;
+        left: 120px;
+        position: relative;
+    }
+
+    .Mobile-Footer{
+        display: block;
+        margin-top: 55px;
+        height: 425px;
+    }
+
+    .MF-Header{
+top: 0px;
+left: 15px;
+width: 305px;
+height: 30px;
+text-align: left;
+font-size: 25px;
+font-family: 'Open Sans';
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+position: relative;
+    }
+
+    .MF1-Text{
+top: 30px;
+left: 15px;
+width: 284px;
+height: 40px;
+text-align: left;
+font-size: 15px;
+font-weight: 600;
+font-family: 'Open Sans';
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+position: relative;
+    }
+
+    .MF1-Author{
+        top: 35px;
+left: 15px;
+width: 284px;
+height: 40px;
+text-align: left;
+font-size: 20px;
+font-weight: 200;
+font-family: 'Open Sans';
+letter-spacing: 0px;
+color: #939393;
+opacity: 1;
+position: relative;
+    }
+
+    .MF1-Pic{
+top: -50px;
+left: 270px;
+width: 78px;
+height: 66px;
+background: transparent url('../pictures/mincastle.jpg') 0% 0% no-repeat padding-box;
+box-shadow: 0px 5px 10px #0000000D;
+border-radius: 7px 7px 0px 0px;
+opacity: 1;
+position: relative;
+    }
+
+    .MF2-Text{
+        top: -20px;
+        left: 15px;
+        width: 284px;
+        height: 40px;
+        text-align: left;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: 'Open Sans';
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        position: relative;
+            }
+        
+            .MF2-Author{
+                top: -15px;
+        left: 15px;
+        width: 284px;
+        height: 40px;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 200;
+        font-family: 'Open Sans';
+        letter-spacing: 0px;
+        color: #939393;
+        opacity: 1;
+        position: relative;
+            }
+        
+            .MF2-Pic{
+        top: -100px;
+        left: 270px;
+        width: 78px;
+        height: 66px;
+        background: transparent url('../pictures/mincastle.jpg') 0% 0% no-repeat padding-box;
+        box-shadow: 0px 5px 10px #0000000D;
+        border-radius: 7px 7px 0px 0px;
+        opacity: 1;
+        position: relative;
+            }
+
+            .MF3-Text{
+                top: -70px;
+                left: 15px;
+                width: 284px;
+                height: 40px;
+                text-align: left;
+                font-size: 15px;
+                font-weight: 600;
+                font-family: 'Open Sans';
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 1;
+                position: relative;
+                    }
+                
+                    .MF3-Author{
+                        top: -65px;
+                left: 15px;
+                width: 284px;
+                height: 40px;
+                text-align: left;
+                font-size: 20px;
+                font-weight: 200;
+                font-family: 'Open Sans';
+                letter-spacing: 0px;
+                color: #939393;
+                opacity: 1;
+                position: relative;
+                    }
+                
+                    .MF3-Pic{
+                top: -150px;
+                left: 270px;
+                width: 78px;
+                height: 66px;
+                background: transparent url('../pictures/mincastle.jpg') 0% 0% no-repeat padding-box;
+                box-shadow: 0px 5px 10px #0000000D;
+                border-radius: 7px 7px 0px 0px;
+                opacity: 1;
+                position: relative;
+                    }    
+        
+                    .MF4-Text{
+                        top: -120px;
+                        left: 15px;
+                        width: 284px;
+                        height: 40px;
+                        text-align: left;
+                        font-size: 15px;
+                        font-weight: 600;
+                        font-family: 'Open Sans';
+                        letter-spacing: 0px;
+                        color: #000000;
+                        opacity: 1;
+                        position: relative;
+                            }
+                        
+                            .MF4-Author{
+                                top: -115px;
+                        left: 15px;
+                        width: 284px;
+                        height: 40px;
+                        text-align: left;
+                        font-size: 20px;
+                        font-weight: 200;
+                        font-family: 'Open Sans';
+                        letter-spacing: 0px;
+                        color: #939393;
+                        opacity: 1;
+                        position: relative;
+                            }
+                        
+                            .MF4-Pic{
+                        top: -200px;
+                        left: 270px;
+                        width: 78px;
+                        height: 66px;
+                        background: transparent url('../pictures/mincastle.jpg') 0% 0% no-repeat padding-box;
+                        box-shadow: 0px 5px 10px #0000000D;
+                        border-radius: 7px 7px 0px 0px;
+                        opacity: 1;
+                        position: relative;
+                            }    
+    
+
+    .Line-2{
+        display: none;
+    }
+
+
+    .Footer-Section{
+        display: none;
+    }
+
+    .Left-Claps-Icon{
+        display: none;
+         }
+         
+         .Left-Claps-Text{
+         display: none;
+         }
+
+
+.Share{
+display: none;
+}
+
+.Share-Text{
+display: none;
+}
+
+.Left-Box{
+display: none;
+}
+
+    }
