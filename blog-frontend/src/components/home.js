@@ -8,7 +8,7 @@ function Home(){
 
     // useEffect()
     const io = require("socket.io-client");
-    const socket = io("https://blogbackend-k5vd.onrender.com/");
+    const socket = io("https://blogbackend-k5vd.onrender.com");
     const navigate = useNavigate();
 
     // const goToHome = () =>{

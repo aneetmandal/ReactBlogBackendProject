@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3001;
 const socket = require('socket.io');
 
-const server = app.listen(3001, ()=>{
+const server = app.listen(PORT, ()=>{
     console.log("Listening on Port 3001");
 })
 
